@@ -9,11 +9,12 @@ import { QuizContext } from './helpers/Contexts';
 function App() {
 
   const [gameState, setgameState] = useState("menu");
+  const [score, setscore] = useState(0);
 
   return (
-    <div className="App bg-slate-600">
-      <h1 className='bg-slate-500 hover:border-x-2 hover:border-blue-100' >QUIZLET</h1>
-<QuizContext.Provider value={{gameState, setgameState}}>
+    <div className="App">
+      <h1 className='--bs-success-text-emphasis' >QUIZLET</h1>
+<QuizContext.Provider value={{gameState, setgameState, score, setscore}}>
       {gameState==="menu" &&<MainMenu />}
       {gameState==="quiz" &&<Quiz />}
       {gameState==="end" &&<EndScreen />}

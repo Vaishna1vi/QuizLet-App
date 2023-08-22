@@ -1,8 +1,123 @@
+/* *{
+  background: linear-gradient(rgba(5, 0, 46, 0.692), transparent);
+background-color: teal;
+} */
+
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
 }
 
-.App-logo {
+
+.Menu{
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  background: linear-gradient(rgba(5, 0, 46, 0.849), transparent);
+  background-color: lightseagreen;
+  /* background-color: teal; */
+}
+
+.Menu button {
+  width: 300px;
+  height: 60px;
+  margin: 5px;
+  /* padding: 5%; */
+  border: solid rgb(42, 42, 71) 5px;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.Menu button:hover {
+  width: 300px;
+  height: 60px;
+  margin: 5px;
+  background-color: rgb(248, 187, 112);
+  border: solid rgb(15, 15, 26) 5px;
+  border-radius: 20px;
+  font-size: 25px;
+  color: rgb(22, 20, 20);
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.Quiz {
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(42, 35, 90, 0.856), transparent);
+  /* background-color: lightseagreen; */
+  background-color: teal;
+  color: rgb(219, 173, 117);
+}
+
+.Quiz button {
+  width: 250px;
+  height: 40px;
+  margin: 15px;
+  border: solid 0.5px rgb(48, 13, 80);
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(216, 224, 105);
+}
+
+.options {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  /* width: 200px; */
+  width: 300px;
+  height: 40px;
+  margin: 5px;
+  border: solid 0.5px rgb(48, 13, 80);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(157, 224, 199);
+}
+
+.change {
+  display: flex;
+  margin-top: 50px;
+}
+.change button {
+  width: 250px;
+  height: 40px;
+  margin: 15px;
+  border: solid 0.5px rgb(48, 13, 80);
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(216, 224, 105);
+  /* background-color: rgb(175, 53, 64); */
+
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +150,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { QuizContext } from '../helpers/Contexts'
+// import '../App.css'
 
 function EndScreen() {
   return (

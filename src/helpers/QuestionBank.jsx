@@ -1,0 +1,42 @@
+export const Questions = [
+    {
+        prompt: "Which of the following is not a programming language?",
+        optionA: "C++",
+        optionB: "Python",
+        optionC: "HTML",
+        optionD: "All of them",
+        answer: "Option C",
+    },
+    {
+        prompt: "React is a framework of which?",
+        optionA: "CSS",
+        optionB: "JavaScript",
+        optionC: "HTML",
+        optionD: "BootStrap",
+        answer: "Option B",
+    },
+    {
+        prompt: "Which of the following is not a frontend technology?",
+        optionA: "PHP",
+        optionB: "CSS",
+        optionC: "ReactJs",
+        optionD: "None of them",
+        answer: "Option A",
+    },
+    {
+        prompt: "What is full form of PHP?",
+        optionA: "Pre Hypertext Processor",
+        optionB: "Preprocessor Hypertext",
+        optionC: "Preprocessed Hypertext",
+        optionD: "Hypertext Preprocessor",
+        answer: "Option D",
+    },
+    {
+        prompt: "Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?",
+        optionA: "2-phase locking",
+        optionB: "Time-stamp ordering",
+        optionC: "None of them",
+        optionD: "All of them",
+        answer: "Option B",
+    },
+];
