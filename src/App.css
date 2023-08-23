@@ -1,16 +1,15 @@
-/* *{
-  background: linear-gradient(rgba(5, 0, 46, 0.692), transparent);
-background-color: teal;
-} */
-
 .App {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  /* margin: 30px; */
+  height: 100%;
+  width: 100%;
+  background-color: rgb(177, 139, 93);
+  
 }
 
 
@@ -26,6 +25,7 @@ background-color: teal;
   background: linear-gradient(rgba(5, 0, 46, 0.849), transparent);
   background-color: lightseagreen;
   /* background-color: teal; */
+  margin-bottom: 5%;
 }
 
 .Menu button {
@@ -45,10 +45,11 @@ background-color: teal;
   width: 300px;
   height: 60px;
   margin: 5px;
-  background-color: rgb(248, 187, 112);
+  background-color: rgb(154, 209, 91);
   border: solid rgb(15, 15, 26) 5px;
   border-radius: 20px;
   font-size: 25px;
+  letter-spacing: 7px;
   color: rgb(22, 20, 20);
   text-align: center;
   cursor: pointer;
@@ -63,10 +64,12 @@ background-color: teal;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(42, 35, 90, 0.856), transparent);
+  background: linear-gradient(rgba(42, 35, 90, 0.911), transparent);
   /* background-color: lightseagreen; */
-  background-color: teal;
+  background-color: rgb(141, 53, 175);
   color: rgb(219, 173, 117);
+  margin-bottom: 5%;
+
 }
 
 .Quiz button {
@@ -81,7 +84,7 @@ background-color: teal;
 }
 
 .options {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,7 +93,7 @@ background-color: teal;
 
 .options button {
   /* width: 200px; */
-  width: 300px;
+  width: 400px;
   height: 40px;
   margin: 5px;
   border: solid 0.5px rgb(48, 13, 80);
@@ -117,37 +120,60 @@ background-color: teal;
 
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.change button:hover {
+  width: 250px;
+  height: 40px;
+  margin: 19px;
+  letter-spacing: 1px;
+  border: solid 0.5px rgb(48, 13, 80);
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgb(212, 147, 62);
+  /* background-color: rgb(175, 53, 64); */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.EndScreen {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* text-align: center; */
+  background: linear-gradient(rgb(165, 28, 28), transparent);
+  background-color: rgb(255, 161, 73);
+  margin-bottom: 5%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.EndScreen button  {
+  width: 300px;
+  height: 60px;
+  margin: 5px;
+  background-color: rgb(248, 187, 112);
+  border: solid 2px rgb(15, 15, 26);
+  border-radius: 20px;
+  font-size: 30px;
+  color: rgb(22, 20, 20);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.EndScreen button:hover {
+  width: 300px;
+  height: 60px;
+  margin: 5px;
+  background-color: rgb(177, 199, 77);
+  border: solid 3.5px rgb(44, 38, 38) ;
+  border-radius: 20px;
+  font-size: 25px;
+  letter-spacing: 7px;
+  color: rgb(22, 20, 20);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
