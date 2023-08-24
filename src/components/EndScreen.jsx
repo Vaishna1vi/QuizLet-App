@@ -14,9 +14,13 @@ setgameState("menu");
 
   return (
     <div className='EndScreen'>
-      <h1 style={{color: 'white', fontSize: '50px'}}>Quiz Finished!!</h1>
-      <img style={{ height: '200px', width: '200px'}} src="https://cdn-icons-png.flaticon.com/256/4359/4359741.png" alt="" />
-      <h1 style={{color: 'navy'}} >Your Score is: {score} / {Questions.length} </h1>
+      <h1 
+      // style={{color: 'white', fontSize: '50px'}}
+      >Quiz Finished!!</h1>
+      <img 
+      // style={{ height: '200px', width: '200px' }} 
+      src="https://cdn-icons-png.flaticon.com/256/4359/4359741.png" alt="" />
+      <h2 style={{color: 'navy', fontSize: '30px'}} >Your Score is: {score} / {Questions.length} </h2>
       <button onClick={restart}
       // style={
        

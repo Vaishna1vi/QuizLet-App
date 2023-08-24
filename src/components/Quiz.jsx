@@ -52,21 +52,22 @@ const handleClick = event => {
       </div>
 
       {
-      currQuestion == Questions.length-1 ? <div>
+      currQuestion == Questions.length-1 ? <div className='ep'>
       <button onClick={previousQuestion}>Previous Question</button>
-      <button style={
-      {
-        width: '250px',
-        height: '40px',
-        margin: '15px',
-        border: 'solid 0.5px rgb(48, 13, 80)',
-        borderRadius: '50px',
-        fontSize: '20px',
-        cursor: 'pointer',
-        backgroundColor: 'rgb(175, 53, 64)',
-        marginTop: '60px',
-      }
-      } 
+      <button id='btn'
+      // style={
+      // {
+      //   width: '250px',
+      //   height: '40px',
+      //   margin: '15px',
+      //   border: 'solid 0.5px rgb(48, 13, 80)',
+      //   borderRadius: '50px',
+      //   fontSize: '20px',
+      //   cursor: 'pointer',
+      //   backgroundColor: 'rgb(175, 53, 64)',
+      //   marginTop: '60px',
+      // }
+      // } 
       onClick={finishQuiz}>Finish Quiz</button>
       </div> : 
       <div>
